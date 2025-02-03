@@ -20,11 +20,12 @@ main{
     height: 1000px;
     box-sizing: border-box;
     background: rgb(106, 9, 9);
+    align-items: stretch;
 }
 
 .box{
     background: rgb(238, 238, 203);
-    height: 300px;
+    min-height: 300px;
     width: 300px; 
     display: flex;
     justify-content: center;
@@ -38,9 +39,9 @@ main{
 }
 
 .box2{
-    height: 400px;
+    min-height: 400px;
 }
 
 .box3{
-    height: 200px;
+    min-height: 200px;
 }
