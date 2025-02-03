@@ -126,3 +126,17 @@ main{
     background: yellowgreen;
     transition: 1s 0.3s all cubic-bezier(.47,1.64,.41,.8);
 }
+
+.bar{
+    width: 100px;
+    height: 100px;
+    background: #7fffd4;    
+    background: linear-gradient(90deg, #7fffd4 0%, #7fffd4 100%);
+    transition: 1s all cubic-bezier(.47,1.64,.41,.8);
+}
+
+#canvas:hover .bar{
+    width: 1000px;
+    background: rgb(40, 245, 184);
+    background: linear-gradient(90deg, #7fffd4 0%, #00C9FF 100%);
+}
