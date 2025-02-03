@@ -157,27 +157,42 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: translateY(-80vh);     
+    transform: translateY(-80vh);  
+    cursor: pointer;   
 }
 
 .menu-item h1{
     font-size: 2em;
     font-weight: 800;
+    color: white;
 }
 
 .flex-item1{
+    background-image: url(https://images.pexels.com/photos/1894350/pexels-photo-1894350.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-repeat: no-repeat;
     transition: 1s all cubic-bezier(.47,1.64,.41,.8);      
 }
 
 .flex-item2{
+    background-image: url(https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-repeat: no-repeat;
     transition: 1s 0.2s all cubic-bezier(.47,1.64,.41,.8);      
 }
 
 .flex-item3{
+    background-image: url(https://images.pexels.com/photos/2106216/pexels-photo-2106216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-repeat: no-repeat;
     transition: 1s 0.4s all cubic-bezier(.47,1.64,.41,.8);      
 }
 
 
 #cool-container:hover .menu-item{
     transform: translateY(0);
+}
+
+.menu-item:hover{
+    flex-grow: 5;
 }
