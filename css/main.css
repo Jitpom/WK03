@@ -8,7 +8,11 @@ main{
     background: rgb(52, 63, 63);
     padding: 100px;
     display: flex;
+    /* gap: 5px; */
+    flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 30px;
 }
 
 .container2{
@@ -20,10 +24,12 @@ main{
     height: 300px;
     width: 300px; 
     display: flex;
-    flex-direction: column;   
     justify-content: center;
+    flex-direction: column-reverse;       
 }
 
 .box h1{
     text-align: center;
+    font-weight: 800;
+    font-size: 3em; 
 }
