@@ -8,9 +8,12 @@ main{
     background: rgb(52, 63, 63);
     padding: 100px;
     display: flex;
-    gap: 5px;
+    justify-content: space-around;
 }
 
+.container2{
+    justify-content: space-between;
+}
 .box{
     background: rgb(238, 238, 203);
     height: 300px;
