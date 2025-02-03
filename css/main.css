@@ -13,6 +13,8 @@ main{
     justify-content: space-around;
     flex-wrap: wrap;
     row-gap: 30px;
+    /* visibility: hidden; */
+    display: none;
 }
 
 .container2{
@@ -46,3 +48,28 @@ main{
 .box3{
     min-height: 200px;
 }
+
+
+#grid-container{
+    background: rgb(50, 55, 60);
+    padding: 100px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 300px 300px;
+    gap: 10px;
+}
+
+.grid-item{
+    background: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item h1{
+    font-weight: 800;
+    font-size: 3em;
+}
+
