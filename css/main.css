@@ -17,6 +17,9 @@ main{
 
 .container2{
     justify-content: space-between;
+    height: 1000px;
+    box-sizing: border-box;
+    background: rgb(106, 9, 9);
 }
 
 .box{
@@ -32,4 +35,12 @@ main{
     text-align: center;
     font-weight: 800;
     font-size: 3em; 
+}
+
+.box2{
+    height: 400px;
+}
+
+.box3{
+    height: 200px;
 }
