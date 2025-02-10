@@ -99,7 +99,6 @@ main{
     flex-direction: column;
     row-gap: 50px;
     cursor: pointer;
-    /* display: none; */
 }
 
 
@@ -107,12 +106,26 @@ main{
     width: 100px;
     height: 100px;
     background: beige;
-    transition: 1s all ease-in-out;
+    /* transition: 1s all ease-in-out; */
 }
 
 #canvas:hover .moving-box{
-    transform: translateX(500px) rotate(360deg);
-    border-radius: 50%;    
+    /* transform: translateX(500px) rotate(360deg);
+    border-radius: 50%;     */
+    animation-name: kongpop-anim;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes kongpop-anim{
+    from{
+        transform: translateX(0) rotate(0deg);
+        border-radius: 0;
+    }
+    to{
+        transform: translateX(500px) rotate(360deg);
+        border-radius: 50%;
+    }
 }
 
 #canvas:hover .moving-circle{
