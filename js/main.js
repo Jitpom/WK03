@@ -1,13 +1,13 @@
 $(document).ready(function(){
-    $(".fa-bars-staggered").click(function(event){
+    $("#menu-icon").click(function(event){
         event.stopPropagation();
-        $(".menu").addClass("active");        
+        $("#canvas nav").addClass("active");        
     })
 
     // Hide dropdown when clicking anywhere else on the screen
     $(document).on("click", function(event){
-        if ($(".menu").hasClass("active")){
-            $(".menu").removeClass("active");
+        if ($("#canvas nav").hasClass("active")){
+            $("#canvas nav").removeClass("active");
         }
       });
 });
