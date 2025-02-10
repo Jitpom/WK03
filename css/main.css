@@ -144,6 +144,10 @@ main {
     box-sizing: border-box;
 }
 
+#canvas nav li a, #canvas nav li a:active, #canvas nav li a:visited{
+    color: white;
+}
+
 #canvas nav li:last-child{
     border-bottom: none;
 }
@@ -151,6 +155,10 @@ main {
 #canvas nav li:hover{
     color: rgb(47, 47, 47);
     background: rgb(133, 220, 2);
+}
+
+#canvas nav li:hover a{
+    color: rgb(47, 47, 47);
 }
 
 #canvas nav{
