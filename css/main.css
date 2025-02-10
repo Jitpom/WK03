@@ -161,6 +161,26 @@ main {
 #canvas nav.active{
     transform: translateY(0px);
 }
+
+
+@media screen and (min-width: 800px) {
+    #menu-icon{
+        display: none;
+    }
+
+    #canvas nav{
+        flex-direction: row;
+        transform: translateY(0px);
+        justify-content: center;
+    }
+
+    #canvas nav li{
+        border-bottom: none;
+    }
+}
+
+
+
 .moving-box {
     width: 100px;
     height: 100px;
