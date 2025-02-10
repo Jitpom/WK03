@@ -155,7 +155,7 @@ main {
 
 #canvas nav{
     transform: translateY(-400px);
-    transition: 1s tranform cubic-bezier(.47, 1.64, .41, .8);
+    transition: 1s all cubic-bezier(.47, 1.64, .41, .8);
 }
 
 #canvas nav.active{
