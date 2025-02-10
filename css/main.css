@@ -160,21 +160,21 @@ main {
     }
 }
 
-#canvas:hover .moving-circle {
+/* #canvas:hover .moving-circle {
     transform: translateX(500px) scale(1.5);
     background: rgb(208, 79, 79);
-}
+} */
 
 .moving-circle {
     width: 100px;
     height: 100px;
     border-radius: 50%;
     background: yellowgreen;
-    animation-name: bouncing-ball;
+    /* animation-name: bouncing-ball;
     animation-duration: 3s;
     animation-timing-function: cubic-bezier(.47, 1.64, .41, .8);
     animation-iteration-count: infinite;
-    animation-direction: alternate;
+    animation-direction: alternate; */
     /* transition: 1s 0.3s all cubic-bezier(.47,1.64,.41,.8); */
 }
 
