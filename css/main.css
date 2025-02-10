@@ -148,6 +148,19 @@ main {
     border-bottom: none;
 }
 
+#canvas nav li:hover{
+    color: rgb(47, 47, 47);
+    background: rgb(133, 220, 2);
+}
+
+#canvas nav{
+    transform: translateY(-400px);
+    transition: 1s tranform cubic-bezier(.47, 1.64, .41, .8);
+}
+
+#canvas nav.active{
+    transform: translateY(0px);
+}
 .moving-box {
     width: 100px;
     height: 100px;
