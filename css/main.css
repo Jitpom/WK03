@@ -145,7 +145,8 @@ main {
 }
 
 #canvas nav li a, #canvas nav li a:active, #canvas nav li a:visited{
-    color: white;
+    color: rgb(133, 220, 2);
+    text-decoration: none;
 }
 
 #canvas nav li:last-child{
