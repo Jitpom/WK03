@@ -113,11 +113,21 @@ main {
 
 #canvas h1{
     font-family: chuda;
-    font-size: 60pt;
+    font-size: 24pt;
     text-align: center;
     color: white;
 }
 
+#menu-icon{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#menu-icon i{
+    color: white;
+    font-size: 20pt;
+}
 
 .moving-box {
     width: 100px;
