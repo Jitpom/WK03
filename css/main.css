@@ -107,14 +107,18 @@ main{
     height: 100px;
     background: beige;
     /* transition: 1s all ease-in-out; */
+    animation-name: kongpop-anim;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 6;
+
 }
 
 #canvas:hover .moving-box{
     /* transform: translateX(500px) rotate(360deg);
     border-radius: 50%;     */
-    animation-name: kongpop-anim;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
 }
 
 @keyframes kongpop-anim{
